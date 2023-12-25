@@ -16,7 +16,7 @@ use Terpz710\RelicsPE\RelicsManager;
 class RelicsCommand extends Command implements PluginOwned {
 
     private RelicsManager $relicsManager;
-    private Relics $plugin;
+    private Relics $relics;
 
     public function __construct(Relics $relics, RelicsManager $relicsManager) {
         $this->relics = $relics;
