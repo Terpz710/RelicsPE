@@ -104,7 +104,7 @@ class RelicsManager implements Listener {
                 break;
         }
 
-        $relic = $this->createPrismarineRelicItem($relicRarity, "");
+        $relic = $this->createPrismarineRelicItem($relicRarity);
         $player->getInventory()->addItem($relic);
         $player->sendMessage("§a§l(!)§r§f You have uncovered a {$color}{$relicRarity}§r§f relic!");
         }
