@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/Terpz710/RelicsPE"><img src="https://github.com/Terpz710/RelicsPE/blob/main/icon.gif"></img></a><br>
+    <a href="https://github.com/Terpz710/RelicsPE"><img src="https://github.com/Terpz710/RelicsPE/blob/main/icon.png"></img></a><br>
     <b>RelicsPE for Pocketmine-MP</b>
 
 # Description
