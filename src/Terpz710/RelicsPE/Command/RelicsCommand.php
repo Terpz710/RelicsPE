@@ -16,9 +16,10 @@ use Terpz710\RelicsPE\RelicsManager;
 class RelicsCommand extends Command implements PluginOwned {
 
     private RelicsManager $relicsManager;
+    private Relics $plugin;
 
     public function __construct(Relics $plugin, RelicsManager $relicsManager) {
-        $this->plugin = $plugin;
+        $this->relics = $plugin;
         $this->relicsManager = $relicsManager;
         parent::__construct("relics", "Relics");
         $this->setPermission("relicspe.cmd");
