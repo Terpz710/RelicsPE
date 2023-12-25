@@ -18,15 +18,15 @@ class RelicsCommand extends Command implements PluginOwned {
     private RelicsManager $relicsManager;
     private Relics $plugin;
 
-    public function __construct(Relics $plugin, RelicsManager $relicsManager) {
-        $this->relics = $plugin;
+    public function __construct(Relics $relics, RelicsManager $relicsManager) {
+        $this->relics = $relics;
         $this->relicsManager = $relicsManager;
         parent::__construct("relics", "Relics");
         $this->setPermission("relicspe.cmd");
     }
 
     public function getOwningPlugin(): Plugin {
-        return $this->plugin;
+        return $this->relics;
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): void {
