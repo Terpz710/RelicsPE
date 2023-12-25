@@ -45,7 +45,7 @@ class RelicsCommand extends Command implements PluginOwned {
             }
         }
     } else {
-        $this->main->getLogger()->warning("Please use this command in-game!");
+        $this->relics->getLogger()->warning("Please use this command in-game!");
         }
     }
 }
