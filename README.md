@@ -4,12 +4,12 @@
 
 # Description
 
-A [Pocketmine-MP](https://pmmp.io) plugin that adds relics into your server! Players who are mining are given the chance to uncover relics with raritys and rarity based rewards!
+A [Pocketmine-MP](https://pmmp.io) plugin that adds relics into your server! Players who are mining are given the chance to uncover relics with raritys and rarity based rewards! l
 
 # Features
 
 * Players who are mining are given the chance to recieve a relic.
-* You can claim the relic to recieve rarity based rewards.
+* You can claim the relic to recieve rarity based rewards. Each relic claimed will give the player 1 random reward.
 * Spawn in relics using a command.
 
 **Upcoming features**
