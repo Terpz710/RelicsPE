@@ -4,7 +4,7 @@
 
 # Description
 
-A [Pocketmine-MP](https://pmmp.io) plugin that adds relics into your server! Players who are mining are given the chance to uncover relics with raritys and rarity based rewards!
+A [Pocketmine-MP](https://pmmp.io) plugin that adds relics into your server, Players who are mining are given the chance to uncover relics with raritys and rarity based rewards!
 
 # Features
 
