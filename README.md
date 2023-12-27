@@ -30,5 +30,5 @@ Got an idea? DM me via Discord:
 
 relicspe.cmd
 
-defualt: true
+defualt: op
 ```
