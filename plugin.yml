@@ -8,4 +8,4 @@ description: Simple relics for PocketMine-MP
 permissions:
   relicspe.cmd:
     description: Allows you to spawn in relics.
-    defualt: op
+    default: op
