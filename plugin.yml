@@ -2,7 +2,7 @@ name: RelicsPE
 version: 1.0.0-ALPHA
 author: Terpz710
 api: 5.0.0
-main: Terpz710\RelicsPE\Relics
+main: Terpz710\RelicsPE\Loader
 description: Simple relics for PocketMine-MP
 
 permissions:
