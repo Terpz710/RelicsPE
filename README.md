@@ -19,8 +19,8 @@ A [Pocketmine-MP](https://pmmp.io) plugin that adds relics into your server, Pla
 
 Got an idea? DM me via Discord:
 
-* Ace87.
-* Ace873056.
+* Ace87.(Alt)
+* Ace873056.(Main)
 
 # Permissions/Commands
 ```
