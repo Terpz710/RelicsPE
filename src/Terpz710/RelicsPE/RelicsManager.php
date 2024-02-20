@@ -19,7 +19,7 @@ class RelicsManager implements Listener {
 
     private $plugin;
 
-    public function __construct(Relics $plugin) {
+    public function __construct(Loader $plugin) {
         $this->plugin = $plugin;
     }
 
