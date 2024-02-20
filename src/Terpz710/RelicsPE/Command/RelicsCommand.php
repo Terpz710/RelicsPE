@@ -10,7 +10,7 @@ use pocketmine\player\Player;
 use pocketmine\plugin\Plugin;
 use pocketmine\plugin\PluginOwned;
 
-use Terpz710\RelicsPE\Relics;
+use Terpz710\RelicsPE\Loader;
 use Terpz710\RelicsPE\RelicsManager;
 
 class RelicsCommand extends Command implements PluginOwned {
