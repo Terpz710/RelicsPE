@@ -11,7 +11,7 @@ use pocketmine\utils\Config;
 use Terpz710\RelicsPE\Command\RelicsCommand;
 use Terpz710\RelicsPE\RelicsManager;
 
-class Relics extends PluginBase {
+class Loader extends PluginBase {
 
     public function onEnable(): void {
         $this->saveResource("rewards.yml");
