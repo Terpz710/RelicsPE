@@ -16,17 +16,17 @@ use Terpz710\RelicsPE\RelicsManager;
 class RelicsCommand extends Command implements PluginOwned {
 
     private RelicsManager $relicsManager;
-    private Relics $relics;
+    private Loader $plugin;
 
-    public function __construct(Relics $relics, RelicsManager $relicsManager) {
-        $this->relics = $relics;
+    public function __construct(Loader $plugin, RelicsManager $relicsManager) {
+        $this->plugin = $plugin;
         $this->relicsManager = $relicsManager;
         parent::__construct("relics", "Relics");
         $this->setPermission("relicspe.cmd");
     }
 
     public function getOwningPlugin(): Plugin {
-        return $this->relics;
+        return $this->plugin;
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): void {
