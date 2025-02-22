@@ -1,0 +1,14 @@
+# Made by Terpz710 :p
+# Made with love <3
+
+# Message when a player discovers a relic
+relic_found_message: "You have uncovered a {relic_name}&r&f relic!"
+
+# Title displayed when a relic is found
+relic_found_title: "&lRelic uncovered"
+
+# Subtitle displayed when a relic is found
+relic_found_subtitle: "You found a {relic_name}&r&f!"
+
+# Message when a player claims a relic reward
+relic_claimed_message: "You received &e{amount}x {item_name}&r&f from the relic!"

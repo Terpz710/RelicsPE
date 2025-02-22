@@ -1,0 +1,76 @@
+# Made by Terpz710 :p
+# Made with love <3
+
+# How to add items to the reward list:
+# All rewards MUST follow the layout shown below!
+
+# How to add an item without a custom name.
+# - item: "diamond"
+#   quantity: 32
+
+# How to add an item with a custom name.
+# - item: "apple"
+#   quantity: 1
+#   custom_name: "Yummy apple!"
+
+# How to add an item with enchantments and custom name.
+# - item: "wooden_sword"
+#     enchantments:
+#       sharpness: 2
+#       autorepair: 1 # custom enchantments are supported! (PCE)
+#     custom_name: "cool sword"
+#     quantity: 1
+
+# How to add an item with enchantments but without custom name.
+# - item: "wooden_sword"
+#     enchantments:
+#       sharpness: 2
+#       autorepair: 1 # custom enchantments are supported! (PCE).
+#       quantity: 1
+
+rewards:
+  common:
+    - item: "diamond_sword"
+      enchantments:
+        sharpness: 2
+      custom_name: "§r§l§eDaily Sword"
+      quantity: 1
+    - item: "golden_apple"
+      quantity: 5
+    - item: "steak"
+      quantity: 32
+
+  uncommon:
+    - item: "iron_chestplate"
+      enchantments:
+        protection: 2
+      quantity: 1
+    - item: "golden_apple"
+      quantity: 5
+    - item: "steak"
+      quantity: 32
+
+  rare:
+    - item: "golden_apple"
+      quantity: 1
+    - item: "steak"
+      quantity: 32
+
+  epic:
+    - item: "steak"
+      quantity: 32
+
+  legendary:
+    - item: "diamond_block"
+      quantity: 1
+    - item: "steak"
+      quantity: 32
+
+  mythical:
+    - item: "nether_star"
+      enchantments:
+        efficiency: 5
+        fortune: 3
+      quantity: 1
+    - item: "steak"
+      quantity: 32

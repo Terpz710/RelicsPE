@@ -1,0 +1,14 @@
+# Fait par Terpz710 :p
+# Fait avec amour <3
+
+# Message lorsque un joueur découvre une relique
+relic_found_message: "Vous avez découvert une relique {relic_name}&r&f !"
+
+# Titre affiché lorsqu'une relique est trouvée
+relic_found_title: "&lRelique découverte"
+
+# Sous-titre affiché lorsqu'une relique est trouvée
+relic_found_subtitle: "Vous avez trouvé une relique {relic_name}&r&f !"
+
+# Message lorsque un joueur réclame la récompense d'une relique
+relic_claimed_message: "Vous avez reçu &e{amount}x {item_name}&r&f de la relique !"

@@ -1,0 +1,14 @@
+# Erstellt von Terpz710 :p
+# Mit Liebe gemacht <3
+
+# Nachricht, wenn ein Spieler eine Reliquie entdeckt
+relic_found_message: "Du hast eine {relic_name}&r&f Reliquie entdeckt!"
+
+# Titel, der angezeigt wird, wenn eine Reliquie gefunden wird
+relic_found_title: "&lReliquie entdeckt"
+
+# Untertitel, der angezeigt wird, wenn eine Reliquie gefunden wird
+relic_found_subtitle: "Du hast eine {relic_name}&r&f gefunden!"
+
+# Nachricht, wenn ein Spieler die Belohnung einer Reliquie beansprucht
+relic_claimed_message: "Du hast &e{amount}x {item_name}&r&f aus der Reliquie erhalten!"

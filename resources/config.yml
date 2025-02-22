@@ -1,0 +1,75 @@
+# Made by Terpz710 :p
+# Made with love <3
+
+# NOTE: All translations were done via Google translate, Sorry if Google butchered your language!
+# Choose the language for all the messages:
+# Options:
+# - "en": English (default)
+# - "es": Spanish
+# - "fr": French
+# - "de": German
+# - "zh-t": Traditional Chinese
+# - "zh-s": Simplified Chinese
+language: "en"
+
+# Sound played when uncovering a relic
+# List of sounds:
+# https://www.digminecraft.com/lists/sound_list_pe.php
+sound: "random.levelup"
+sound_volume: 10
+sound_pitch: 1.0
+
+# Chance (in percentage) to receive a relic on block break
+# 0 - 100
+relic_drop_chance: 10
+
+# Customize your relics here!
+# Do not edit the rarity's unless you know what you're doing!
+#
+# chance = Drop chance for said rarity
+# name = Name used for messages
+# item_name = Name used for the relic
+# item_lore = Lore used for the relic
+#
+relics:
+  common:
+    chance: 13
+    name: "§eCommon"
+    item_name: "§r§eCommon§f Relic"
+    item_lore:
+      - "§r§e§l(!)§r§f Right/Left click to claim!"
+
+  uncommon:
+    chance: 10
+    name: "§aUncommon"
+    item_name: "§r§aUncommon§f Relic"
+    item_lore:
+      - "§r§e§l(!)§r§f Right/Left click to claim!"
+
+  rare:
+    chance: 7
+    name: "§bRare"
+    item_name: "§r§bRare§f Relic"
+    item_lore:
+      - "§r§e§l(!)§r§f Right/Left click to claim!"
+
+  epic:
+    chance: 4
+    name: "§dEpic"
+    item_name: "§r§dEpic§f Relic"
+    item_lore:
+      - "§r§e§l(!)§r§f Right/Left click to claim!"
+
+  legendary:
+    chance: 1
+    name: "§1Legendary"
+    item_name: "§r§1Legendary§f Relic"
+    item_lore:
+      - "§r§e§l(!)§r§f Right/Left click to claim!"
+
+  mythical:
+    chance: 1
+    name: "§5Mythical"
+    item_name: "§r§5Mythical§f Relic"
+    item_lore:
+      - "§r§e§l(!)§r§f Right/Left click to claim!"

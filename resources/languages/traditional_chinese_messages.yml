@@ -1,0 +1,14 @@
+# 由 Terpz710 製作 :p
+# 用愛製作 <3
+
+# 玩家發現遺物時的消息
+relic_found_message: "你發現了一件 {relic_name}&r&f 遺物！"
+
+# 發現遺物時顯示的標題
+relic_found_title: "&l遺物發現"
+
+# 發現遺物時顯示的副標題
+relic_found_subtitle: "你找到了 {relic_name}&r&f！"
+
+# 玩家領取遺物獎勵時的消息
+relic_claimed_message: "你從遺物中獲得了 &e{amount}x {item_name}&r&f！"

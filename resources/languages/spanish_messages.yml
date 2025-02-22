@@ -1,0 +1,14 @@
+# Hecho por Terpz710 :p
+# Hecho con amor <3
+
+# Mensaje cuando un jugador descubre una reliquia
+relic_found_message: "¡Has descubierto una reliquia {relic_name}&r&f!"
+
+# Título mostrado cuando se encuentra una reliquia
+relic_found_title: "&lReliquia descubierta"
+
+# Subtítulo mostrado cuando se encuentra una reliquia
+relic_found_subtitle: "¡Encontraste una reliquia {relic_name}&r&f!"
+
+# Mensaje cuando un jugador reclama la recompensa de una reliquia
+relic_claimed_message: "¡Recibiste &e{amount}x {item_name}&r&f de la reliquia!"
