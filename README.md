@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/Terpz710/RelicsPE"><img src="https://github.com/Terpz710/RelicsPE/blob/main/icon.png"></img></a><br>
+    <a href="https://github.com/Terpz710/RelicsPE"><img src="https://github.com/Terpz710/RelicsPE/blob/main/pic.gif"></img></a><br>
     <b>RelicsPE for Pocketmine-MP</b>
 
 # Description
@@ -9,24 +9,25 @@ A [Pocketmine-MP](https://pmmp.io) plugin that adds relics into your server, Pla
 # Features
 
 * Players who are mining are given the chance to recieve a relic.
+* Cool sound when a player uncovers a relic (customizable).
+* Customizable messages.
+* Muli-Language (English, Spanish, French, German and Simplified/Traditional Chinese.
 * You can claim the relic to recieve rarity based rewards. Each relic claimed will give the player 1 random reward.
 * Spawn in relics using a command.
+* Customizable relics.
+* Customizable chances. (Chances for each relic and drop chance to actually recieve a relic when mining a block).
 
 **Upcoming features**
 
-* Configurable messages.
-* Configurable chances for both reward and relics.
+* Configurable chances for rewards.
 
 Got an idea? DM me via Discord:
 
-* Ace87.(Alt)
-* Ace873056.(Main)
+* Ace873056
 
-# Permissions/Commands
-```
-**Relics Command**
-
-/relics <rarity>
+# Commands/Permissions
+```php
+/relics <player_name> <rarity>
 
 relicspe.cmd
 
