@@ -6,6 +6,9 @@ namespace terpz710\relicspe\manager;
 
 use pocketmine\item\Item;
 use pocketmine\item\VanillaItems;
+use pocketmine\item\enchantment\EnchantmentInstance;
+
+use pocketmine\data\bedrock\EnchantmentIdMap;
 
 use pocketmine\player\Player;
 
@@ -45,6 +48,7 @@ final class RelicsManager {
         $relic = VanillaItems::PRISMARINE_SHARD();
         $relic->setCustomName($name);
         $relic->setLore($lore);
+        $relic->addEnchantment(new EnchantmentInstance(EnchantmentIdMap::getInstance()->fromId(RelicsPE::FAKE_ENCH_ID), 1));
         $relic->getNamedTag()->setString("rarity", $rarity);
 
         return $relic;
