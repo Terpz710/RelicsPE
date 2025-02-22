@@ -1,11 +1,9 @@
 name: RelicsPE
-version: 1.0.0-ALPHA
+version: 1.0.0
 author: Terpz710
-api: 5.0.0
-main: Terpz710\RelicsPE\Loader
-description: Simple relics for PocketMine-MP
+api: 5.3.0
+main: terpz710\relicspe\RelicsPE
 
 permissions:
   relicspe.cmd:
-    description: Allows you to spawn in relics.
     default: op
