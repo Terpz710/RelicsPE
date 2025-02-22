@@ -22,8 +22,8 @@ class RelicsCommand extends BaseCommand {
 
     protected function prepare() : void{
         $this->setPermission("relicspe.cmd");
-        $this->registerArgument(0, new TextArgument("player"));
-        $this->registerArgument(1, new RawStringArgument("rarity"));
+        $this->registerArgument(0, new RawStringArgument("player"));
+        $this->registerArgument(1, new TextArgument("rarity"));
     }
 
     public function onRun(CommandSender $sender, string $aliasUsed, array $args) : void{
