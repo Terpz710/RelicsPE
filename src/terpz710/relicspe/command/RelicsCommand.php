@@ -15,13 +15,14 @@ use terpz710\relicspe\RelicsPE;
 use terpz710\relicspe\manager\RelicsManager;
 
 use CortexPE\Commando\BaseCommand;
+use CortexPE\Commando\args\TextArgument;
 use CortexPE\Commando\args\RawStringArgument;
 
 class RelicsCommand extends BaseCommand {
 
     protected function prepare() : void{
         $this->setPermission("relicspe.cmd");
-        $this->registerArgument(0, new RawStringArgument("player"));
+        $this->registerArgument(0, new TextArgument("player"));
         $this->registerArgument(1, new RawStringArgument("rarity"));
     }
 
