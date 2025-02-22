@@ -6,6 +6,12 @@ namespace terpz710\relicspe;
 
 use pocketmine\plugin\PluginBase;
 
+use pocketmine\item\enchantment\ItemFlags;
+use pocketmine\item\enchantment\Enchantment;
+
+use pocketmine\data\bedrock\EnchantmentIdMap;
+
+
 use function mkdir;
 use function is_dir;
 use function file_exists;
@@ -15,6 +21,8 @@ use terpz710\relicspe\command\RelicsCommand;
 final class RelicsPE extends PluginBase {
 
     protected static self $instance;
+
+    const FAKE_ENCH_ID = -1;
 
     protected function onLoad() : void{
         self::$instance = $this;
@@ -47,6 +55,11 @@ final class RelicsPE extends PluginBase {
         $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
 
         $this->getServer()->getCommandMap()->register("RelicsPE", new RelicsCommand($this, "relics", "Give a player a relic"));
+
+        EnchantmentIdMap::getInstance()->register(
+            self::FAKE_ENCH_ID,
+            new Enchantment("Glow", 1, ItemFlags::ALL, ItemFlags::NONE, 1)
+        );
     }
 
     public static function getInstance() : self{
